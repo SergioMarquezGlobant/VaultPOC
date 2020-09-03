@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  vaultpoc:
+    image: ${DOCKER_REGISTRY-}vaultpoc
+    build:
+      context: .
+      dockerfile: VaultPOC/Dockerfile
+    volumes:
+    - $HOME/.aws/credentials:/home/app/.aws/credentials:ro

@@ -1,0 +1,29 @@
+version: '3.4'
+
+services:
+  vaultpoc:
+    image: vaultpoc:dev
+    container_name: VaultPOC
+    build:
+      target: base
+      labels:
+        com.microsoft.created-by: "visual-studio"
+        com.microsoft.visual-studio.project-name: "VaultPOC"
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_vaultpoc$
+    volumes:
+      - C:\Users\sergio.marquez\source\repos\VaultPOC\VaultPOC:/app
+      - C:\Users\sergio.marquez\source\repos\VaultPOC:/src
+      - C:\Users\sergio.marquez\vsdbg\vs2017u5:/remote_debugger:rw
+#$nuget_volume_mapping_vaultpoc$
+      - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
+      - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
+
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_vaultpoc$ \"bin/Debug/netcoreapp3.1/VaultPOC.dll\""
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
+    tty: true

@@ -1,0 +1,8 @@
+C:\Users\sergio.marquez\source\repos\VaultPOC\VaultCore\bin\Debug\netcoreapp3.1\VaultCore.deps.json
+C:\Users\sergio.marquez\source\repos\VaultPOC\VaultCore\bin\Debug\netcoreapp3.1\VaultCore.dll
+C:\Users\sergio.marquez\source\repos\VaultPOC\VaultCore\obj\Debug\netcoreapp3.1\VaultCore.csprojAssemblyReference.cache
+C:\Users\sergio.marquez\source\repos\VaultPOC\VaultCore\obj\Debug\netcoreapp3.1\VaultCore.AssemblyInfoInputs.cache
+C:\Users\sergio.marquez\source\repos\VaultPOC\VaultCore\obj\Debug\netcoreapp3.1\VaultCore.AssemblyInfo.cs
+C:\Users\sergio.marquez\source\repos\VaultPOC\VaultCore\bin\Debug\netcoreapp3.1\VaultCore.pdb
+C:\Users\sergio.marquez\source\repos\VaultPOC\VaultCore\obj\Debug\netcoreapp3.1\VaultCore.dll
+C:\Users\sergio.marquez\source\repos\VaultPOC\VaultCore\obj\Debug\netcoreapp3.1\VaultCore.pdb

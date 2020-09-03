@@ -1,0 +1,110 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "VaultCore/1.0.0": {
+        "dependencies": {
+          "AWSSDK.Core": "3.5.1.6",
+          "AWSSDK.SecurityToken": "3.5.0.8",
+          "VaultSharp": "1.4.0.5"
+        },
+        "runtime": {
+          "VaultCore.dll": {}
+        }
+      },
+      "AWSSDK.Core/3.5.1.6": {
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.5.1.6"
+          }
+        }
+      },
+      "AWSSDK.SecurityToken/3.5.0.8": {
+        "dependencies": {
+          "AWSSDK.Core": "3.5.1.6"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.SecurityToken.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.5.0.8"
+          }
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.3.23909"
+          }
+        }
+      },
+      "Portable.BouncyCastle/1.8.5": {
+        "runtime": {
+          "lib/netstandard2.0/BouncyCastle.Crypto.dll": {
+            "assemblyVersion": "1.8.5.0",
+            "fileVersion": "1.8.5.50"
+          }
+        }
+      },
+      "VaultSharp/1.4.0.5": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3",
+          "Portable.BouncyCastle": "1.8.5"
+        },
+        "runtime": {
+          "lib/netstandard2.0/VaultSharp.dll": {
+            "assemblyVersion": "1.4.0.5",
+            "fileVersion": "1.4.0.5"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "VaultCore/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AWSSDK.Core/3.5.1.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zrJgh4h0Ct/1ebm9KUFeDVfQuys8Hh9Yji4A7/0peRS1/O2wBM7AcZ5SBpdrBCbKkSdJLl5ERMKO7UrSUiHk/Q==",
+      "path": "awssdk.core/3.5.1.6",
+      "hashPath": "awssdk.core.3.5.1.6.nupkg.sha512"
+    },
+    "AWSSDK.SecurityToken/3.5.0.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nHDuaxkHTuL2tYHGUfpoMBr1gpNE3B8+GkLaRclGIOCMq8FBl9ZIBVb1x3XK7p+GWtBqm8N881dubraVEbG2Ew==",
+      "path": "awssdk.securitytoken/3.5.0.8",
+      "hashPath": "awssdk.securitytoken.3.5.0.8.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "path": "newtonsoft.json/12.0.3",
+      "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
+    },
+    "Portable.BouncyCastle/1.8.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EaCgmntbH1sOzemRTqyXSqYjB6pLH7VCYHhhDYZ59guHSD5qPwhIYa7kfy0QUlmTRt9IXhaXdFhNuBUArp70Ng==",
+      "path": "portable.bouncycastle/1.8.5",
+      "hashPath": "portable.bouncycastle.1.8.5.nupkg.sha512"
+    },
+    "VaultSharp/1.4.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yRQGeZVJO9bph/6WV+A43zqxg/YHiOds33OOfwri7v/xfo9GFz/61DzjP8XJ8ulDKAOT5WudR28N7YvToPbP/g==",
+      "path": "vaultsharp/1.4.0.5",
+      "hashPath": "vaultsharp.1.4.0.5.nupkg.sha512"
+    }
+  }
+}

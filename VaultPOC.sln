@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VaultPOC", "VaultPOC\VaultPOC.csproj", "{842CE8CB-0419-41DA-961F-B0C9E6E98BA3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B6D67E8E-71C7-4327-9240-970DCCA0FB27}"
+	ProjectSection(SolutionItems) = preProject
+		.env = .env
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VaultCore", "VaultCore\VaultCore.csproj", "{AA703614-0E6C-42A5-A947-CED60AF2FBCE}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{368B2393-8A1F-4009-8F6E-1DEDB10DED47}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{842CE8CB-0419-41DA-961F-B0C9E6E98BA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{842CE8CB-0419-41DA-961F-B0C9E6E98BA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{842CE8CB-0419-41DA-961F-B0C9E6E98BA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{842CE8CB-0419-41DA-961F-B0C9E6E98BA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA703614-0E6C-42A5-A947-CED60AF2FBCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA703614-0E6C-42A5-A947-CED60AF2FBCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA703614-0E6C-42A5-A947-CED60AF2FBCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA703614-0E6C-42A5-A947-CED60AF2FBCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{368B2393-8A1F-4009-8F6E-1DEDB10DED47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{368B2393-8A1F-4009-8F6E-1DEDB10DED47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{368B2393-8A1F-4009-8F6E-1DEDB10DED47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{368B2393-8A1F-4009-8F6E-1DEDB10DED47}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7AD41A74-B2F1-4E95-9F9A-988C63408E6E}
+	EndGlobalSection
+EndGlobal

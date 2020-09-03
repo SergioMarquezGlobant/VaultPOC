@@ -1,0 +1,75 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\sergio.marquez\\source\\repos\\VaultPOC\\VaultCore\\VaultCore.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\sergio.marquez\\source\\repos\\VaultPOC\\VaultCore\\VaultCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sergio.marquez\\source\\repos\\VaultPOC\\VaultCore\\VaultCore.csproj",
+        "projectName": "VaultCore",
+        "projectPath": "C:\\Users\\sergio.marquez\\source\\repos\\VaultPOC\\VaultCore\\VaultCore.csproj",
+        "packagesPath": "C:\\Users\\sergio.marquez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sergio.marquez\\source\\repos\\VaultPOC\\VaultCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sergio.marquez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://smiledirectclub.myget.org/F/engineering/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AWSSDK.Core": {
+              "target": "Package",
+              "version": "[3.5.1.6, )"
+            },
+            "AWSSDK.SecurityToken": {
+              "target": "Package",
+              "version": "[3.5.0.8, )"
+            },
+            "VaultSharp": {
+              "target": "Package",
+              "version": "[1.4.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

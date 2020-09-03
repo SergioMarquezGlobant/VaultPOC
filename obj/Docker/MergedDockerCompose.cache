@@ -1,0 +1,17 @@
+services:
+  vaultpoc:
+    build:
+      context: C:\Users\sergio.marquez\source\repos\VaultPOC
+      dockerfile: VaultPOC/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: vaultpoc
+    ports:
+    - target: 80
+    - target: 443
+    volumes:
+    - C:\Users\sergio.marquez\.aws\credentials:/home/app/.aws/credentials:ro
+    - C:\Users\sergio.marquez\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\sergio.marquez\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+version: '3.4'
