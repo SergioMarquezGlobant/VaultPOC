@@ -14,7 +14,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VaultCore", "VaultCore\Vaul
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{368B2393-8A1F-4009-8F6E-1DEDB10DED47}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VaultConsolePOC", "..\VaultConsolePOC\VaultConsolePOC.csproj", "{474ABDA2-C543-4AB9-BEFD-F6B4E52F49BF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VaultConsolePOC", "VaultConsolePOC\VaultConsolePOC.csproj", "{474ABDA2-C543-4AB9-BEFD-F6B4E52F49BF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
