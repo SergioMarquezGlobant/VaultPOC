@@ -68,7 +68,8 @@ namespace VaultCore
             catch (Exception ex)
             {
                 //log here
-                throw;
+                Console.WriteLine(ex.Message);
+                return null;
             }
         }
     }

@@ -9,6 +9,7 @@ FROM mcr.microsoft.com/dotnet/core/sdk:3.1-buster AS build
 WORKDIR /src
 COPY ["VaultPOC/VaultPOC.csproj", "VaultPOC/"]
 COPY ["VaultCore/VaultCore.csproj", "VaultCore/"]
+COPY ["VaultConsolePOC/VaultConsolePOC.csproj", "VaultConsolePOC/"]
 RUN dotnet restore "VaultPOC/VaultPOC.csproj"
 COPY . .
 WORKDIR "/src/VaultPOC"
